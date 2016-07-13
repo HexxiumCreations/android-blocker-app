@@ -24,6 +24,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'com.github.delight-im:Android-AdvancedWebView:v2.1.1'
-    compile 'eu.chainfire:libsuperuser:1.0.0.+'
     compile 'org.wordpress:passcodelock:1.+'
+    compile 'net.sf.trove4j:trove4j:3.0.3'
 }
