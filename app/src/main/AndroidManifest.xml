@@ -29,7 +29,7 @@
 
         <provider
             android:name=".db.DatabaseProvider"
-            android:authorities="com.xelitexirish.malwareshield" />
+            android:authorities="com.xelitexirish" />
 
     </application>
 </manifest>
