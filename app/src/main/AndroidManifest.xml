@@ -25,7 +25,13 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".ui.HostSourceActivity"
+            android:label="Hosts Source"
+            android:screenOrientation="portrait" />
+
         <service android:name=".service.ApplyHostsFileService" />
+        <service android:name=".service.RevertHostsFileService" />
 
         <provider
             android:name=".db.DatabaseProvider"
