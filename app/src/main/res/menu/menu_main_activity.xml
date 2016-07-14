@@ -5,12 +5,19 @@
     <item
         android:id="@+id/action_viewHostsFile"
         android:title="Open Hosts File"
-        android:orderInCategory="102"
+        android:orderInCategory="100"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/action_edit_sources"
         android:title="Edit app sources"
-        android:orderInCategory="103"
+        android:orderInCategory="101"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        android:orderInCategory="102"
+        app:showAsAction="never" />
+
 </menu>

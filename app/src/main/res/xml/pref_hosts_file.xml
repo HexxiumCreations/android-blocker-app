@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Hosts File" />
+
+    <SwitchPreference
+        android:key="ENABLE_ADBLOCK_LISTS"
+        android:defaultValue="true"
+        android:title="Block known ad servers"
+        android:summary="Block known servers known for advertisement" />
+
+    <SwitchPreference
+        android:key="ENABLE_BLOCKED_LISTS"
+        android:defaultValue="true"
+        android:title="Block known malicious websites"
+        android:summary="Blocked known websites know for malicious content" />
+
+</PreferenceScreen>

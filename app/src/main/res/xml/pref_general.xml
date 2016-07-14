@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="General Preferences" />
+
+    <SwitchPreference
+        android:key="KEY_CHECK_FOR_UPDATES"
+        android:defaultValue="true"
+        android:title="Check for updates"
+        android:summary="Check for updates when the app starts" />
+
+    <SwitchPreference
+        android:key="KEY_UPDATE_ONLY_ON_WIFI"
+        android:defaultValue="false"
+        android:title="Update only when WiFi is available"
+        android:summary="Only allow updating when connected to Wifi" />
+
+</PreferenceScreen>
