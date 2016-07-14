@@ -15,4 +15,17 @@
         android:title="Block known malicious websites"
         android:summary="Blocked known websites know for malicious content" />
 
+    <EditTextPreference
+        android:key="KEY_REDIRECTION_WEBSITE"
+        android:defaultValue="@string/redirection_website"
+        android:title="Redirection Website"
+        android:summary="Website to redirect all malicious websites to" />
+
+    <ListPreference
+        android:key="KEY_APPLY_HOST_METHOD"
+        android:defaultValue="@string/pref_apply_method_def"
+        android:entryValues="@array/pref_apply_method_entries_values"
+        android:title="Target Host File"
+        android:summary="Leave this default unless your manual says the host file is in a different location" />
+
 </PreferenceScreen>

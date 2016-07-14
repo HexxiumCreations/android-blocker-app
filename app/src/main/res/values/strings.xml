@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">MalwareShield</string>
+    <string name="redirection_website">www.xelitexirish</string>
+
+    <!-- Preferences -->
+    <string-array name="pref_apply_method_entries_values" translate="false">
+        <item>writeToSystem</item>
+        <item>writeToData</item>
+        <item>writeToDataData</item>
+        <item>customTarget</item>
+    </string-array>
+
+    <string name="pref_apply_method_def" translate="false">writeToSystem</string>
+
 </resources>

@@ -15,4 +15,10 @@
         android:title="Update only when WiFi is available"
         android:summary="Only allow updating when connected to Wifi" />
 
+    <SwitchPreference
+        android:key="KEY_ENABLE_SOUNDS"
+        android:defaultValue="true"
+        android:title="Enable sounds"
+        android:summary="Allow the app to play sounds" />
+
 </PreferenceScreen>
