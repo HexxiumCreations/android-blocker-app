@@ -26,9 +26,10 @@
         </activity>
 
         <activity
-            android:name=".ui.HostSourceActivity"
+            android:name=".ui.HostsSourceListActivity"
             android:label="Hosts Source"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"/>
 
         <service android:name=".service.ApplyHostsFileService" />
         <service android:name=".service.RevertHostsFileService" />
