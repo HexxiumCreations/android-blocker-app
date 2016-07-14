@@ -8,41 +8,34 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Header Text"
-        android:textColor="@color/textColour"
-        android:id="@+id/textViewHeader"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Malare Shield: DISABLED"
         android:id="@+id/textViewAppStatus"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
         android:textStyle="bold"
-        android:textColor="#ff0000" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ENABLE HOSTS FILE"
-        android:id="@+id/buttonApply"
-        android:layout_centerVertical="true"
+        android:textColor="#ff0000"
+        android:layout_marginTop="49dp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="REVERT HOSTS FILE"
+        android:text="DOWNLOAD FILES AND APPLY HOSTS FILE"
+        android:id="@+id/buttonApply"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REVERT CHANGES TO HOSTS FILE"
         android:id="@+id/buttonRevert"
         android:layout_below="@+id/buttonApply"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp" />
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
 
 </RelativeLayout>
