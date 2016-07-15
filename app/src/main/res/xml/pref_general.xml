@@ -10,6 +10,12 @@
         android:summary="Check for updates when the app starts" />
 
     <SwitchPreference
+        android:key="DO_AUTO_UPDATE_DAILY"
+        android:defaultValue="true"
+        android:title="Check for updates daily"
+        android:summary="Would you like to check for updates every day" />
+
+    <SwitchPreference
         android:key="KEY_UPDATE_ONLY_ON_WIFI"
         android:defaultValue="false"
         android:title="Update only when WiFi is available"
