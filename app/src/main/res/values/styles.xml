@@ -15,13 +15,14 @@
 
         <item name="android:popupBackground">@color/background</item>
         <item name="android:itemBackground">@color/background</item>
+        <item name="android:panelFullBackground">@color/background</item>
+
+        <item name="android:buttonStyle">@style/ButtonText</item>
     </style>
 
-    <style name="Button" parent="@android:style/Widget.Button">
+    <style name="ButtonText" parent="@android:style/Widget.Button">
         <item name="android:textColor">@color/colorPrimary</item>
         <item name="android:background">@android:drawable/btn_default</item><!-- only way to change this is to change the src image -->
-        <item name="android:layout_width">80.0px</item>
-        <item name="android:layout_height">40.0px</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
