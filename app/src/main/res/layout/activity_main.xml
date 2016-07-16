@@ -69,7 +69,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="DOWNLOAD FILES AND APPLY HOSTS FILE"
+        android:text="@string/button_apply"
         android:id="@+id/buttonApply"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
@@ -79,7 +79,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="REVERT CHANGES TO HOSTS FILE"
+        android:text="@string/button_revert"
         android:id="@+id/buttonRevert"
         android:layout_below="@+id/buttonApply"
         android:layout_centerHorizontal="true"
