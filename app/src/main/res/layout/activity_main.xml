@@ -4,6 +4,7 @@
     android:layout_height="match_parent">
 
     <RelativeLayout
+        android:id="@+id/relativeLayoutStatus"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:paddingLeft="5dp"
@@ -72,9 +73,19 @@
         android:text="@string/button_apply"
         android:id="@+id/buttonApply"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/relativeLayoutStatus"
+        android:layout_marginTop="50dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_apply_text"
+        android:layout_below="@+id/buttonApply"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
 
     <Button
         android:layout_width="match_parent"
@@ -86,5 +97,14 @@
         android:layout_marginTop="80dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_revert_text"
+        android:layout_below="@+id/buttonRevert"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
 
 </RelativeLayout>
