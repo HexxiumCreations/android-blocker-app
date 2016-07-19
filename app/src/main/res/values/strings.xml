@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MalwareShield</string>
+    <string name="app_name">Malware Shield</string>
     <string name="redirection_website">www.xelitexirish</string>
 
     <!-- Menu Actions -->
@@ -11,7 +11,7 @@
     <!-- Buttons -->
     <string name="button_apply">DOWNLOAD FILES AND APPLY HOSTS FILE</string>
     <string name="button_revert">REVERT CHANGES TO HOSTS FILE</string>
-    <string name="button_apply_text">Install the host file blocking the selected advertisement and malicious websites</string>
+    <string name="button_apply_text">Install the host file blocking the selected malicious and advertisement websites</string>
     <string name="button_revert_text">Restore the default hosts file that comes with Android</string>
     <string name="button_close">Close</string>
     <string name="button_cancel">Cancel</string>
@@ -38,9 +38,11 @@
 
     <!-- Notifications -->
     <string name="status_checking">Checking for available update..</string>
-    <string name="status_reverting">Reverting...</string>
     <string name="status_checking_subtitle">Checking if there is an update available</string>
-    <string name="status_reverting_subtitle">Checking default hosts file</string>
+    <string name="status_reverting">Reverting...</string>
+    <string name="status_reverting_subtitle">Reverting default hosts file</string>
+    <string name="status_applying">Applying..</string>
+    <string name="status_applying_subtitle">Applying newest hosts file</string>
     <string name="status_update_available">Update Available</string>
     <string name="status_update_available_subtitle">Newer hosts files are available to install</string>
     <string name="status_download_fail">Download Failed</string>

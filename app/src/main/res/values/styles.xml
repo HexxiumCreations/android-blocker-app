@@ -21,7 +21,8 @@
     </style>
 
     <style name="ButtonText" parent="@android:style/Widget.Button">
-        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:background">@android:drawable/btn_default</item><!-- only way to change this is to change the src image -->
     </style>
 
