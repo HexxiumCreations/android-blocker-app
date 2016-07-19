@@ -28,7 +28,7 @@
     <string name="dialog_reboot_problem">Problem with rebooting</string>
 
     <string name="dialog_root_required_title">Root is required</string>
-    <string name="dialog_root_required_message">Root is required in order to use Malware Shield please give the app permission and try again</string>
+    <string name="dialog_root_required_message">Root is required in order to use Malware Shield please give the app permission and try again. The app will now reboot.</string>
     
     <string name="dialog_non_url_title">Not a valid URL</string>
     <string name="dialog_non_url_message">The URL entered is not a valid url</string>
