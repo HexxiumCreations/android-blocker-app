@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Malware Shield</string>
-    <string name="redirection_website">www.xelitexirish</string>
+    <string name="default_redirection_ip">216.58.213.164</string>
 
     <!-- Menu Actions -->
     <string name="menu_add">Add</string>

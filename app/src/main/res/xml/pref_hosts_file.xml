@@ -3,6 +3,14 @@
 
     <PreferenceCategory android:title="Hosts File" />
 
+    <EditTextPreference
+        android:key="HOSTS_REDIRECTION_IP"
+        android:defaultValue="@string/default_redirection_ip"
+        android:title="Redirection IP"
+        android:lines="1"
+        android:maxLength="20"
+        android:summary="IP of the website to redirect malicious websites too" />
+
     <SwitchPreference
         android:key="ENABLE_ADBLOCK_LISTS"
         android:defaultValue="true"
@@ -15,9 +23,15 @@
         android:title="Block known malicious websites"
         android:summary="Blocked known websites know for malicious content" />
 
+    <SwitchPreference
+        android:key="ENABLE_HOSTSFILE_LISTS"
+        android:defaultValue="true"
+        android:title="Allow hosts file sources"
+        android:summary="Allow hosts file sources to be added to the blocked list" />
+
     <EditTextPreference
         android:key="KEY_REDIRECTION_WEBSITE"
-        android:defaultValue="@string/redirection_website"
+        android:defaultValue="@string/default_redirection_ip"
         android:title="Redirection Website"
         android:summary="Website to redirect all malicious websites to" />
 
