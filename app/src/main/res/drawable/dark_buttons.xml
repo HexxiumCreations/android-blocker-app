@@ -4,14 +4,14 @@
         android:radius="0dp"
         />
     <solid
-        android:color="#3f3f3f"
+        android:color="@color/colorPrimary"
         />
     <size
         android:width="270dp"
         android:height="60dp"
         />
     <stroke
-        android:width="3dp"
-        android:color="#878787"
+        android:width="0dp"
+        android:color="@color/colorPrimary"
         />
 </shape>
